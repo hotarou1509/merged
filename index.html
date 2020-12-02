@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERGED</title>
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- font family: lato -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <!-- START HERE -->
+    <!-- HEADER -->
+    <header class="container-fluid">
+        <div class="row py-3 mx-auto header__container">
+            <div class="col-6  text-left">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="col-6 r text-right">
+                <a href="#"><i class="fa fa-phone"></i></a>
+                <span>+021 365 777</span>
+            </div>
+        </div>
+    </header>
+    <!-- NAVBAR -->
+    <section class="navbar__section">
+        <nav class="navbar navbar-expand-md navbar-light mx-auto">
+            <a class="navbar-brand navbar__logo" href="./index.html">
+                <h1><span>M</span>ERGED</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar__right" id="collapsibleNavbar">
+                <ul class="navbar-nav navbar__content ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/aboutUs.html" target="_blank">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/gallery.html" target="_blank">GALLERY</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            PAGES
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">PAGE 1</a>
+                            <a class="dropdown-item" href="#">PAGE 2</a>
+                            <a class="dropdown-item" href="#">PAGE 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/contact.html" target="_blank">CONTACTS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <!-- CAROUSEL -->
+    <section class="carousel__section">
+        <div class="carousel__section-img">
+            <img class="img-fluid" src="./img/b1.jpg" alt="">
+            <div class="carousel__section-overlay"></div>
+        </div>
+        <div class="owl-slogan owl-carousel owl-theme carousel__section-slogan">
+            <div class="item">
+                <h1>SERVICES TO GROW YOUR BUSINESS</h1>
+                <p>Lorem ipsum dolor, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, eveniet voluptatem? Aut sunt voluptatibus in.</p>
+                <div class="btn__box">
+                    <a href="#" class="btn btn-info withColor" role="button" data-toggle="modal" data-target="#modal-carousel">Read More</a>
+                    <a href="./html/aboutUs.html" target="_blank" class="btn btn-info noColor" role="button">About Us</a>
+                </div>
+            </div>
+            <div class="item">
+                <h1>SERVICES TO GROW YOUR BUSINESS</h1>
+                <p>Lorem ipsum dolor, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, eveniet voluptatem? Aut sunt voluptatibus in.</p>
+                <div class="btn__box">
+                    <a href="#" class="btn btn-info withColor" role="button" data-toggle="modal" data-target="#modal-carousel">Read More</a>
+                    <a href="./html/aboutUs.html" target="_blank" class="btn btn-info noColor" role="button">About Us</a>
+                </div>
+            </div>
+            <div class="item">
+                <h1>SERVICES TO GROW YOUR BUSINESS</h1>
+                <p>Lorem ipsum dolor, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, eveniet voluptatem? Aut sunt voluptatibus in.</p>
+                <div class="btn__box">
+                    <a href="#" class="btn btn-info withColor" role="button" data-toggle="modal" data-target="#modal-carousel">Read More</a>
+                    <a href="./html/aboutUs.html" target="_blank" class="btn btn-info noColor" role="button">About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade" id="modal-carousel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modal__header-carousel">
+                    <h1><span>M</span>ERGED</h1>
+                    <button type="button" class="close" data-dismiss="modal">&times</button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/about.jpg" class="img-fluid" alt="">
+                    <p class="modal-text mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quod. Tenetur quis saepe necessitatibus velit, vitae explicabo sunt harum porro aspernatur nemo alias natus mollitia doloribus assumenda quaerat, modi optio.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- WHAT YOU GET -->
+    <section class="whatuget__section my-5">
+        <div class="container whatuget__container">
+            <div class="row whatuget__title mx-auto">
+                <div class="col-12">
+                    <h2>What you get</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, vero!</p>
+                    <div class="whatuget__title-line mx-auto"></div>
+                </div>
+            </div>
+            <div class="row whatuget__content my-3">
+                <div class="col-12 col-md-4 whatuget__item">
+                    <i class="fa fa-th-large"></i>
+                    <h3>Advance Bussiness</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Maxime corporis inventore exercitationem, id deleniti consequatur.</p>
+                </div>
+                <div class="col-12 col-md-4 whatuget__item">
+                    <i class="fa fa-share-square"></i>
+                    <h3>Free Updates</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Maxime corporis inventore exercitationem, id deleniti consequatur.</p>
+                </div>
+                <div class="col-12 col-md-4 whatuget__item">
+                    <i class="fa fa-expand-arrows-alt"></i>
+                    <h3>Looking Exellent</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Maxime corporis inventore exercitationem, id deleniti consequatur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BANNER -->
+    <section class="banner__section">
+        <div class="banner__img">
+            <img class="img-fluid" src="./img/3.jpg" alt="3">
+        </div>
+        <div class="container-fluid banner__content text-center">
+            <div class="row banner__content-row">
+                <div class="col-12 col-lg-8">
+                    <h3>We Make the Best Bussiness Solutions</h3>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <a href="./html/contact.html" class="btn btn-info withColor" role="button" ta>Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- STATS -->
+    <section class="stats__section my-5">
+        <div class="container stats__container">
+            <div class="row stats__title mx-auto">
+                <div class="col-12">
+                    <h2>We are always ahead Professional solutions for your business</h2>
+                    <p>Our results will fascinate you with the results we have</p>
+                </div>
+            </div>
+            <div class="row stats__content my-5">
+                <div class="col-12 col-md-4 stats__item">
+                    <h1 class="counter">124</h1>
+                    <h3>Satified Clients</h3>
+                    <p>Pure satisfaction</p>
+                </div>
+                <div class="col-12 col-md-4 stats__item">
+                    <h1 class="counter">1148</h1>
+                    <h3>Successful Investments</h3>
+                    <p>Net income</p>
+                </div>
+                <div class="col-12 col-md-4 stats__item">
+                    <h1 class="counter">45</h1>
+                    <h3>Branches Worldwide</h3>
+                    <p>Highest level of credibility</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SERVICES -->
+    <section class="services__section">
+        <div class="container-fluid services__content text-center mx-auto">
+            <div class="row services__title">
+                <div class="col-12 services__text">
+                    <h3>Our Main Services</h3>
+                    <p>Our team provides consulting services focusing on the most critical business issues.</p>
+                </div>
+            </div>
+            <div class="row services__table">
+                <div class="col-12 col-md-4 services__item services__item-color">
+                    <i class="fa fa-arrows-alt"></i>
+                    <h4>Commodities</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="col-12 col-md-4 services__item">
+                    <i class="fas fa-chart-bar"></i>
+                    <h4>Analysis</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="col-12 col-md-4 services__item services__item-color">
+                    <i class="fab fa-btc"></i>
+                    <h4>Consulting</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="col-12 col-md-4 services__item">
+                    <i class="fas fa-cogs"></i>
+                    <h4>Forecasting</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="col-12 col-md-4 services__item services__item-color">
+                    <i class="fas fa-bullseye"></i>
+                    <h4>Financial</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="col-12 col-md-4 services__item">
+                    <i class="fas fa-cubes"></i>
+                    <h4>Assurance</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FEEDBACK -->
+    <section class="feedback__section pt-5">
+         <div class="container feedback__container mx-auto">
+            <div class="feedback__title text-center mb-5">
+                <h2>Our Customers' Opinion</h2>
+                <p>Our team provides consulting services focusing on the most critical business issues.</p>
+            </div>
+            <div class="feedback__slider text-center owl-feedback owl-carousel owl-theme mx-auto">
+                <div class="feedback__item item">
+                    <img src="./img/t1.jpg" alt="">
+                    <h4>Peter Parker</h4>
+                    <p>Lorem ipsum dolor. Laudantium facilis voluptas odit tempora exercitationem aut!</p>
+                </div>
+                <div class="feedback__item item">
+                    <img src="./img/t2.jpg" alt="">
+                    <h4>Mary Jane</h4>
+                    <p>Lorem ipsum dolor. Laudantium facilis voluptas odit tempora exercitationem aut!</p>
+                </div>
+                <div class="feedback__item item">
+                    <img src="./img/t3.jpg" alt="">
+                    <h4>Clark Ken</h4>
+                    <p>Lorem ipsum dolor. Laudantium facilis voluptas odit tempora exercitationem aut!</p>
+                </div>
+                <div class="feedback__item item">
+                    <img src="./img/t4.jpg" alt="">
+                    <h4>Lois Lane</h4>
+                    <p>Lorem ipsum dolor. Laudantium facilis voluptas odit tempora exercitationem aut!</p>
+                </div>
+                <div class="feedback__item item">
+                    <img src="./img/t3.jpg" alt="">
+                    <h4>Bruce Wayne</h4>
+                    <p>Lorem ipsum dolor. Laudantium facilis voluptas odit tempora exercitationem aut!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section class="contact__section">
+        <div class="container contact__container">
+            <div class="row">
+                <div class="col-12 my-3 col-lg-6 contact__subcribe">
+                    <h4>
+                        Subcribe Newsletter
+                    </h4>
+                    <p>By subscribing to our mailing list you will always get latest news from us.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email...">
+                        <div class="input-group-append">
+                            <button class="btn" type="submit"><i class="far fa-envelope"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 my-3 col-md-6 col-lg-2 contact__link">
+                    <h4>Our Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a  href="./html/aboutUs.html" target="_blank">About</a></li>
+                        <li><a href="./html/gallery.html" target="_blank">Gallery</a></li>
+                        <li><a href="./html/contact.html" target="_blank">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 my-3 col-md-6 col-lg-4 contact__info">
+                    <h4>Contact Us</h4>
+                    <p><i class="fa fa-map-marker"></i><span>1234k Avenue, 4th block, New York City.</span></p>
+                    <p><i class="fa fa-envelope"></i><span>info@example.com</span></p>
+                    <p><i class="fa fa-phone"></i></i><span>+1234 567 567</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <p class="copyright">© 2018 Merged. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">w3layouts</a></p>
+    </footer>
+    <!-- Scroll To Top -->
+    <div class="toTop">
+        <a href="#"><img src="./img/arrow.png" alt="arrow"></a>
+    </div>
+    <!-- END HERE -->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- jQuery Waypoint -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-slogan').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            autoplay:true,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                }
+            }
+        });
+        $('.owl-feedback').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            autoplay:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
+    </script>
+    <!-- Counting up jQuery -->
+    <script src="./js/jquery.countup.min.js"></script>
+    <script>
+        $('.counter').countUp();
+    </script>
+</body>
+</html>
